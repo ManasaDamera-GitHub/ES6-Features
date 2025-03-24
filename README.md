@@ -4,7 +4,6 @@
 -> Major changes were done.
 
 1. LET Keyword:
-
 --------------
 
 ->The let variables are mutable i.e. their values can be changed.
