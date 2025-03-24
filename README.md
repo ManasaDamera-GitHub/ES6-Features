@@ -5,7 +5,7 @@
 
 1. LET Keyword:
 
---------------
+---
 
 ->The let variables are mutable i.e. their values can be changed.
 -> It works similar to the var keyword with some key differences like scoping which makes it a better option when compared to var.
@@ -50,3 +50,21 @@ Arrow functions provide a concise syntax for writing function expressions.
    ex: const add = (a,b)=> a + b
 3. if you use expression then must use return keyword.
    ex: const add =(a,b)=>{return a+b}
+
+4. Destructuring Assignment:
+
+---
+
+Destructuring refers to breaking down the complex structures (Object or Arrays) into simpler parts.
+
+## Object Destructuring:
+
+const obj={name:"Kenny", age:7};
+const {name,age}=obj;
+console.log(name,age); // Kenny 7
+
+## Array Destructuring:
+
+const a =["red","blue","green"];
+const [first,second]=a;
+console.log(first,second);
