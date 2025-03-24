@@ -5,7 +5,7 @@
 
 1. LET Keyword:
 
----
+--------------
 
 ->The let variables are mutable i.e. their values can be changed.
 -> It works similar to the var keyword with some key differences like scoping which makes it a better option when compared to var.
